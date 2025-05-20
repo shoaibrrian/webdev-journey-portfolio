@@ -17,7 +17,7 @@ nav{
     margin: 38px 150px 36px;
 }
 
-h3{
+.name{
     font-size: 28px;
     margin-bottom: 0px;
 }
@@ -65,6 +65,8 @@ nav button a{
 .banner-sub-title{
     font-size: 16px;
     text-align: center;
+    color: #0D1321;
+    opacity: 70%;
 }
 
 .btn2{
@@ -77,3 +79,70 @@ nav button a{
     margin: 32px 344px 0px 344px;
     font-size: 20px;
 }
+
+/* goal styles */
+
+.goal{
+    margin: 74px 150px;
+    padding: 80px 97px;
+    text-align: center;
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 18px;
+}
+
+.goal-title{
+    font-size: 32px;
+}
+
+.goal-subtitle{
+    font-size: 16px;
+    opacity: 70%;
+}
+
+.card1{
+    margin: 0px 47px 48px;
+}
+
+.card2{
+    display: flex;
+    margin-bottom: 32px;
+    text-align: left;
+    justify-content: space-between;
+    padding: 48px;
+    background-color: white;
+    border-radius: 16px;
+    background: linear-gradient(to right, #FFFFFF, rgba(255, 255, 255, 0));
+}
+
+.card2-1{
+    width: 477px;
+    height: 219px;
+}
+
+.goal-title1{
+    font-size: 24px;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.btn3{ 
+    width: 244px;
+    height: 57px;
+    background-color: transparent;
+    color: #0D1321;
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+}
+
+.card3{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 32px;
+    text-align: left;
+    justify-content: space-between;
+    padding: 48px;
+    background-color: white;
+    border-radius: 16px;
+    background: linear-gradient(to left, #FFFFFF, rgba(255, 255, 255, 0));
+}
+
+
