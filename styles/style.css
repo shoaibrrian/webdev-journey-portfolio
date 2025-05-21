@@ -172,3 +172,103 @@ nav button a{
   display: block;
   margin: 32px;
 }
+
+.target{
+    margin: 150px 150px 110px;
+}
+
+.target-title{
+    margin: 0px 97px 48px;
+    text-align: center;
+}
+
+.language{
+    display: flex;
+    gap: 24px;
+}
+
+.cardhtml{
+    padding: 40px;
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.cardcss{
+    padding: 40px;
+    border-radius: 16px;
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.cardjs{
+    padding: 40px;
+    border-radius: 16px;
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.learnmore{
+    font-weight: bold;
+    color: #0D1321;
+}
+
+.target1{
+    margin: 0px 150px 50px;
+}
+
+.react{
+    display: flex;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    padding: 40px;
+    gap: 24px;
+    margin-bottom: 24px;
+
+}
+
+.support{
+    margin: 50px 150px 80px;
+    background-image: url('../assets/handshake.jpg');
+    border-radius: 16px;
+    padding: 64px 48px;
+    background-position: center;
+    text-align: center;
+    background-color: rgba(13, 19, 33, 0.4);
+}
+
+.goal-title1{
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.goal-subtitle1{
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 70%;
+}
+
+.feedback{
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    width: 548px;
+    height: 57px;
+    font-family: "Azeret Mono", monospace;
+    padding: 0px 20px ;
+}
+
+.submit{
+    font-size: 20px;
+    font-weight: bold;
+    height: 57px;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    font-family: "Azeret Mono", monospace;
+    padding: 0px 20px ;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(13, 19, 33, 0.03);
+    padding: 32px 150px;
+    font-size: 20px;
+    font-weight: bold;
+}
